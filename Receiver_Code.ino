@@ -25,3 +25,4 @@ unsigned char USART_Receive( void )
  while ( !(UCSR0A & (1<<RXC0)) );
  return UDR0;
 }
+
